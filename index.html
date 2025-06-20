@@ -1,35 +1,83 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>موقعي الشخصي - حيدر سبهان</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1f1c2c, #928DAB);
-      color: #f4f4f4;
-    }
-    h1 {
-      text-align: center;
-      font-size: 3em;
-      color: #00FFC6;
-      margin-top: 50px;
-      text-shadow: 2px 2px 5px #000;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background-color: rgba(255, 255, 255, 0.05);
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(8px);
-    }
-    button {
-      padding: 15px 30px;
-      border: none;
-      border-radius: 50px;
-      background: linear-gradient(45deg
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>موقعي الشخصي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004a99;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px #ccc;
+        }
+        footer {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>حيدر سبهان</h1>
+        <p>موقع شخصي | حساب إنستغرام: j3gm | هاتف: 07744590514</p>
+    </header>
+    <nav>
+        <a href="#about">عنّي</a>
+        <a href="#services">خدماتي</a>
+        <a href="#contact">تواصل معي</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>عنّي</h2>
+            <p>أنا مطور ويب وأحب البرمجة وتصميم المواقع البسيطة والجميلة.</p>
+        </section>
+        <section id="services">
+            <h2>خدماتي</h2>
+            <ul>
+                <li>تصميم مواقع ويب</li>
+                <li>تطوير تطبيقات الويب</li>
+                <li>تحسين واجهة المستخدم</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>تواصل معي</h2>
+            <p>يمكنك التواصل عبر الهاتف أو حساب الإنستغرام المذكور أعلاه.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 حيدر سبهان
+    </footer>
+</body>
+</html>
